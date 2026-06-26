@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#D8D3C9"/>
+  <circle cx="570" cy="540" r="190" fill="#6F6A62" opacity="0.88"/>
+  <rect x="430" y="370" width="300" height="480" rx="90" fill="#FFFFFF" opacity="0.48"/>
+  <text x="600" y="1040" text-anchor="middle" fill="#6F6A62" font-family="Arial, sans-serif" font-size="42" font-weight="700">Flow Keyboard</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#C9B59C"/>
+  <circle cx="640" cy="560" r="175" fill="#2C2A28" opacity="0.88"/>
+  <rect x="410" y="395" width="320" height="460" rx="90" fill="#FFFFFF" opacity="0.48"/>
+  <text x="600" y="1040" text-anchor="middle" fill="#2C2A28" font-family="Arial, sans-serif" font-size="42" font-weight="700">Aurora Pro</text>
+</svg>

@@ -1,0 +1,94 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+.colors {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.colors legend {
+  margin-bottom: var(--space-12);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.colors > div {
+  display: flex;
+  gap: var(--space-8);
+}
+
+.color {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--color-surface);
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 0 1px var(--color-border-subtle);
+  cursor: pointer;
+}
+
+.colorActive {
+  box-shadow: 0 0 0 2px var(--color-text-primary);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 136px 1fr;
+  gap: var(--space-12);
+}
+
+.quantity {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  min-height: 56px;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.quantity button {
+  border: 0;
+  background: transparent;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+}
+
+.quantity span {
+  display: grid;
+  place-items: center;
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.addButton {
+  min-height: 56px;
+  padding: 0 var(--space-24);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: var(--font-weight-semibold);
+}
+
+.addButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.feedback {
+  margin: 0;
+  color: var(--color-success);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 480px) {
+  .actions {
+    grid-template-columns: 1fr;
+  }
+}
